@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Alberto Rosales — Desarrollo web y automatización" width="100%" />
+  <img src="./assets/header.svg?v=2" alt="Alberto Rosales — Desarrollo web y automatización" width="100%" />
 </p>
 
 <p align="center">
