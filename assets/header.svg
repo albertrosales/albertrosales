@@ -1,9 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-<title id="title">Alberto Rosales — Desarrollo web y automatización</title><desc id="desc">Cabecera oscura con detalles en verde y azul y una ventana de código.</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#13263a"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#6e8ba5" stroke-opacity=".09"/></pattern></defs>
-<rect width="1200" height="340" rx="22" fill="url(#bg)"/><rect width="1200" height="340" rx="22" fill="url(#grid)"/>
-<rect x="44" y="50" width="4" height="235" rx="2" fill="#58e1b3"/>
-<g font-family="Arial, Helvetica, sans-serif"><text x="76" y="86" font-size="16" letter-spacing="4" fill="#58e1b3">CODE · BUILD · AUTOMATE</text><text x="72" y="156" font-size="54" font-weight="700" fill="#f0f6fc">Alberto Rosales</text><text x="76" y="204" font-size="24" fill="#bbcee1">Desarrollo web &amp; automatización</text><text x="76" y="256" font-size="17" fill="#91a9be">Ideas que se convierten en herramientas.</text></g>
-<rect x="775" y="67" width="365" height="214" rx="14" fill="#0d1117" stroke="#314457"/><path d="M775 109H1140" stroke="#314457"/>
-<circle cx="800" cy="88" r="5" fill="#ff7b72"/><circle cx="819" cy="88" r="5" fill="#e3b341"/><circle cx="838" cy="88" r="5" fill="#58e1b3"/>
-<g font-family="monospace" font-size="17"><text x="800" y="145" fill="#79c0ff">const developer = {</text><text x="820" y="180" fill="#c9d1d9">  web: <tspan fill="#a5d6ff">"JavaScript"</tspan>,</text><text x="820" y="212" fill="#c9d1d9">  backend: <tspan fill="#a5d6ff">"Node.js"</tspan>,</text><text x="800" y="246" fill="#79c0ff">}; <tspan fill="#58e1b3">// a construir</tspan></text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Alberto Rosales — Desarrollo web y automatización</title>
+<desc id="desc">Diseño minimalista en blanco y plata, con una mascota de escritorio y código tenue al fondo.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edeef1"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#e8e9ed"/><stop offset="1" stop-color="#c7cad1"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#313843"/><stop offset="1" stop-color="#12161d"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#c9d7f5" stop-opacity=".65"/><stop offset="1" stop-color="#e9edf6" stop-opacity="0"/></radialGradient>
+  <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect x=".5" y=".5" width="1199" height="359" rx="28" fill="url(#paper)" stroke="#e4e5e8"/>
+<ellipse cx="950" cy="184" rx="236" ry="173" fill="url(#halo)"/>
+<g fill="#89909d" opacity=".16" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+  <text x="786" y="58">export async function build() {</text>
+  <text x="808" y="84">const idea = await create();</text>
+  <text x="843" y="110">return idea.launch();</text>
+  <text x="786" y="136">}</text>
+  <text x="1050" y="226">&lt;/&gt;</text>
+  <text x="752" y="284">npm run dev</text>
+  <text x="941" y="315">// keep creating</text>
+</g>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <text x="74" y="92" font-size="16" font-weight="500" letter-spacing="1.6" fill="#777b85">ALBERTO / DEVELOPER</text>
+  <text x="70" y="171" font-size="62" font-weight="600" letter-spacing="-2.7" fill="#1d1d1f">Alberto Rosales.</text>
+  <text x="74" y="217" font-size="25" font-weight="400" letter-spacing="-.5" fill="#6e6e73">Desarrollo web y automatización.</text>
+  <text x="74" y="293" font-size="14" letter-spacing=".3" fill="#85858b">JavaScript <tspan dx="14" fill="#c0c1c7">/</tspan><tspan dx="14">Node.js</tspan><tspan dx="14" fill="#c0c1c7">/</tspan><tspan dx="14">PostgreSQL</tspan></text>
+</g>
+<!-- Original desktop companion, drawn as a small sculptural object. -->
+<ellipse cx="948" cy="280" rx="92" ry="12" fill="#3e4b66" opacity=".15" filter="url(#shadow)"/>
+<g transform="translate(848 104) rotate(-7 100 82)">
+  <path d="M79 142L72 163Q100 174 128 163L121 142" fill="url(#metal)" stroke="#bfc3cb"/>
+  <rect x="0" y="0" width="200" height="150" rx="35" fill="url(#metal)" stroke="#c4c8d0"/>
+  <path d="M27 5H172Q193 8 195 30" fill="none" stroke="#fff" stroke-width="2" opacity=".85"/>
+  <rect x="16" y="16" width="168" height="104" rx="24" fill="url(#glass)" stroke="#aeb4be"/>
+  <g fill="none" stroke="#ecf2ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+    <path d="M63 53L49 65L63 77"/>
+    <path d="M137 53L151 65L137 77"/>
+    <path d="M88 87Q100 97 112 87" stroke-width="4"/>
+  </g>
+  <circle cx="100" cy="135" r="3" fill="#8c94a0"/>
+  <rect x="70" y="159" width="60" height="9" rx="4.5" fill="#d6d9df" stroke="#bfc3cb"/>
+</g>
+</svg>
