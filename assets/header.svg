@@ -1,7 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
 <title id="title">Alberto Rosales — Desarrollo web y automatización</title>
-<desc id="desc">Diseño minimalista en blanco y plata, con una mascota de escritorio y código tenue al fondo.</desc>
-<defs>
+<desc id="desc">Diseño minimalista en blanco y plata, con una mascota de escritorio y código legible al fondo. La mascota parpadea, sonríe y flota suavemente.</desc>
+<style>@media (prefers-reduced-motion: reduce) { .motion { animation: none !important; } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+@keyframes blink { 0%,30%,34%,72%,76%,100% { transform: translateY(65px) scaleY(1) translateY(-65px); } 32%,74% { transform: translateY(65px) scaleY(.08) translateY(-65px); } }
+@keyframes codeface { 0%,43%,100% { opacity:1; } 46%,87% { opacity:0; } 90% { opacity:1; } }
+@keyframes happyface { 0%,43%,100% { opacity:0; } 46%,87% { opacity:1; } 90% { opacity:0; } }
+.float { animation: float 5s ease-in-out infinite; }
+.blink { animation: blink 7s ease-in-out infinite; }
+.codeface { animation: codeface 10s ease-in-out infinite; }
+.happyface { opacity:0; animation: happyface 10s ease-in-out infinite; }
+</style><defs>
   <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edeef1"/></linearGradient>
   <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#e8e9ed"/><stop offset="1" stop-color="#c7cad1"/></linearGradient>
   <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#313843"/><stop offset="1" stop-color="#12161d"/></linearGradient>
@@ -10,34 +19,33 @@
 </defs>
 <rect x=".5" y=".5" width="1199" height="359" rx="28" fill="url(#paper)" stroke="#e4e5e8"/>
 <ellipse cx="950" cy="184" rx="236" ry="173" fill="url(#halo)"/>
-<g fill="#89909d" opacity=".16" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+<g fill="#687387" opacity=".78" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">
   <text x="786" y="58">export async function build() {</text>
   <text x="808" y="84">const idea = await create();</text>
-  <text x="843" y="110">return idea.launch();</text>
-  <text x="786" y="136">}</text>
-  <text x="1050" y="226">&lt;/&gt;</text>
+  
+  <text x="786" y="111">}</text>
+  <text x="1092" y="226">&lt;/&gt;</text>
   <text x="752" y="284">npm run dev</text>
   <text x="941" y="315">// keep creating</text>
 </g>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif">
-  <text x="74" y="92" font-size="16" font-weight="500" letter-spacing="1.6" fill="#777b85">ALBERTO / DEVELOPER</text>
+  <text x="74" y="92" font-size="16" font-weight="500" letter-spacing="1.6" fill="#565963">ALBERTO / DEVELOPER</text>
   <text x="70" y="171" font-size="62" font-weight="600" letter-spacing="-2.7" fill="#1d1d1f">Alberto Rosales.</text>
   <text x="74" y="217" font-size="25" font-weight="400" letter-spacing="-.5" fill="#6e6e73">Desarrollo web y automatización.</text>
-  <text x="74" y="293" font-size="14" letter-spacing=".3" fill="#85858b">JavaScript <tspan dx="14" fill="#c0c1c7">/</tspan><tspan dx="14">Node.js</tspan><tspan dx="14" fill="#c0c1c7">/</tspan><tspan dx="14">PostgreSQL</tspan></text>
+  <text x="74" y="293" font-size="17" letter-spacing=".3" fill="#52525b">JavaScript <tspan dx="14" fill="#777b85">/</tspan><tspan dx="14">Node.js</tspan><tspan dx="14" fill="#777b85">/</tspan><tspan dx="14">PostgreSQL</tspan></text>
 </g>
 <!-- Original desktop companion, drawn as a small sculptural object. -->
 <ellipse cx="948" cy="280" rx="92" ry="12" fill="#3e4b66" opacity=".15" filter="url(#shadow)"/>
-<g transform="translate(848 104) rotate(-7 100 82)">
+<g transform="translate(848 116) rotate(-7 100 82)"><g class="motion float">
   <path d="M79 142L72 163Q100 174 128 163L121 142" fill="url(#metal)" stroke="#bfc3cb"/>
   <rect x="0" y="0" width="200" height="150" rx="35" fill="url(#metal)" stroke="#c4c8d0"/>
   <path d="M27 5H172Q193 8 195 30" fill="none" stroke="#fff" stroke-width="2" opacity=".85"/>
   <rect x="16" y="16" width="168" height="104" rx="24" fill="url(#glass)" stroke="#aeb4be"/>
   <g fill="none" stroke="#ecf2ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
-    <path d="M63 53L49 65L63 77"/>
-    <path d="M137 53L151 65L137 77"/>
+    <g class="motion blink"><g class="motion codeface"><path d="M63 53L49 65L63 77"/><path d="M137 53L151 65L137 77"/></g><g class="motion happyface"><path d="M47 69Q56 48 65 69"/><path d="M135 69Q144 48 153 69"/></g></g>
     <path d="M88 87Q100 97 112 87" stroke-width="4"/>
   </g>
   <circle cx="100" cy="135" r="3" fill="#8c94a0"/>
   <rect x="70" y="159" width="60" height="9" rx="4.5" fill="#d6d9df" stroke="#bfc3cb"/>
-</g>
+</g></g>
 </svg>
