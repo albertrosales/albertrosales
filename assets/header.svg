@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">Alberto Rosales — Desarrollo web y automatización</title><desc id="desc">Cabecera oscura con detalles en verde y azul y una ventana de código.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#13263a"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#6e8ba5" stroke-opacity=".09"/></pattern></defs>
+<rect width="1200" height="340" rx="22" fill="url(#bg)"/><rect width="1200" height="340" rx="22" fill="url(#grid)"/>
+<rect x="44" y="50" width="4" height="235" rx="2" fill="#58e1b3"/>
+<g font-family="Arial, Helvetica, sans-serif"><text x="76" y="86" font-size="16" letter-spacing="4" fill="#58e1b3">CODE · BUILD · AUTOMATE</text><text x="72" y="156" font-size="54" font-weight="700" fill="#f0f6fc">Alberto Rosales</text><text x="76" y="204" font-size="24" fill="#bbcee1">Desarrollo web &amp; automatización</text><text x="76" y="256" font-size="17" fill="#91a9be">Ideas que se convierten en herramientas.</text></g>
+<rect x="775" y="67" width="365" height="214" rx="14" fill="#0d1117" stroke="#314457"/><path d="M775 109H1140" stroke="#314457"/>
+<circle cx="800" cy="88" r="5" fill="#ff7b72"/><circle cx="819" cy="88" r="5" fill="#e3b341"/><circle cx="838" cy="88" r="5" fill="#58e1b3"/>
+<g font-family="monospace" font-size="17"><text x="800" y="145" fill="#79c0ff">const developer = {</text><text x="820" y="180" fill="#c9d1d9">  web: <tspan fill="#a5d6ff">"JavaScript"</tspan>,</text><text x="820" y="212" fill="#c9d1d9">  backend: <tspan fill="#a5d6ff">"Node.js"</tspan>,</text><text x="800" y="246" fill="#79c0ff">}; <tspan fill="#58e1b3">// a construir</tspan></text></g></svg>
