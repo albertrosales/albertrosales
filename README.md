@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/albertrosales/albertrosales/c5154594cceee8c336ef9d8036a594975e5427b8/assets/header.svg" alt="Alberto Rosales — Desarrollo web y automatización" width="100%" />
+  <img src="https://raw.githubusercontent.com/albertrosales/albertrosales/d44591322e692e12745028c58f8452fadaedae69/assets/header.svg" alt="Alberto Rosales — Desarrollo web y automatización" width="100%" />
 </p>
 
 <p align="center">
